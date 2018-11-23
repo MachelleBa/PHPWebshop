@@ -8,7 +8,7 @@ $smarty->cache_dir ='../smarty/cache';
 $smarty->config_dir = '../smarty/configs';
 
 
-//$smarty->force_compile = true;
+$smarty->force_compile = true;
 $smarty->debugging = true;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
