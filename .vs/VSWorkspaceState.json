@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\templates"
+    "\\App",
+    "\\App\\model",
+    "\\App\\router"
   ],
-  "SelectedNode": "\\demo",
+  "SelectedNode": "\\index.php",
   "PreviewInSolutionExplorer": false
 }
