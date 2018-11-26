@@ -1,6 +1,10 @@
 <?php
 require_once('../smarty/libs/Smarty.class.php');
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $smarty = new Smarty;
 $smarty->template_dir = '../view';
 $smarty->compile_dir = '../smarty/tmp';
